@@ -1,0 +1,15 @@
+body{
+    background-color: red;
+}
+
+.title{
+    color: aliceblue;
+}
+
+p{
+    color:aliceblue
+}
+
+span#image-1{
+    padding-right: 100vh;
+}

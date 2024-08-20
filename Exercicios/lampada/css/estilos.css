@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(darkblue,white,darkred);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center                                                                                 ;
+}
+
+
+.central{
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
