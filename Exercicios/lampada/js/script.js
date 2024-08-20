@@ -14,3 +14,8 @@ btdesligar.addEventListener('click', apagar)
 function acender(){
     lampada.src = 'images/acesa.gif'
 }
+
+
+function apagar(){
+    lampada.src = 'images/apagada.gif'
+}
