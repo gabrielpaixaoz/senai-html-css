@@ -3,7 +3,7 @@
 body{
     height: 100vh;
     margin: 0px;
-    background:url('/images/2street.jpg');
+    background:url('images/2street.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: aliceblue;
