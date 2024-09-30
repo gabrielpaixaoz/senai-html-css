@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    background: url('/Exercicios/escola/images/sua-escola-e-uma-empresa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.337);
+}
+
+.central input{
+    height: 20px;
+    background: silver;
+    border: none;
+    outline: none;
+}
+
+.central input:focus{
+    background-color: yellowgreen;
+
+}
+
+.central button{
+    background: yellowgreen;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
