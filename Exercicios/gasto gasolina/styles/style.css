@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background: url(../images/eerie-game-gas-station-csuwu7bcq1nfnc81.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div#central{
+    width: 400px;
+    padding: 20px;
+    background-color: red;
+}
+
+div#divinputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+div#divinputs :nth-child(){
+    width: 200px;
+}
